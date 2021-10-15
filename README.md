@@ -7,10 +7,10 @@ Example todo aplication developed during Frontend developer course in Algebra.
 2. `npm run start`
 ## Features
 
-- [ ] Create an item
-- [ ] List all items
-- [ ] Delete an item
-- [ ] Mark an item as completed
+- [x] Create an item
+- [x] List all items
+- [x] Delete an item
+- [x] Mark an item as completed
 - [ ] Add reminder to item (date and time)
 - [ ] Show motivational quote from https://zenquotes.io/api/random
 - [ ] Delete all items
