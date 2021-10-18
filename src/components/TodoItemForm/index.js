@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function TodoItemForm() {
+export default function TodoItemForm({ onSubmitItem }) {
 
     const [todoState, setTodoState] = useState([]);
     const [formState, setFormState] = useState({ text: "" });
@@ -15,6 +15,7 @@ export default function TodoItemForm() {
 
     const handleOnSubmit = (event) => {
         event.preventDefault();
+        onSubmitItem(formState);
         setTodoState(todoState => [
             ...todoState,
             { ...formState, isDone: false }
