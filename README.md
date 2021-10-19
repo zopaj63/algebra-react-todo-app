@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fbdf5714-d226-4af9-b4db-a36b6e98f411/deploy-status)](https://app.netlify.com/sites/zopaj63-algebra-react-todo-app/deploys)
+
 # Todo App
 
 Example todo aplication developed during Frontend developer course in Algebra.
